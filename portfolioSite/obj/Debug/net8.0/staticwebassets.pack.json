@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\portfolioSite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\portfolioSite.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\images\\Azure.png",
+      "PackagePath": "staticwebassets\\images\\Azure.png"
+    },
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\images\\Candidates Performance Dashboard.png",
+      "PackagePath": "staticwebassets\\images\\Candidates Performance Dashboard.png"
+    },
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\images\\CodSoft.png",
+      "PackagePath": "staticwebassets\\images\\CodSoft.png"
+    },
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\images\\FreeCodeCamp.png",
+      "PackagePath": "staticwebassets\\images\\FreeCodeCamp.png"
+    },
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\images\\SN.jpg",
+      "PackagePath": "staticwebassets\\images\\SN.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\images\\University Success Rate.png",
+      "PackagePath": "staticwebassets\\images\\University Success Rate.png"
+    },
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\images\\employee management system.png",
+      "PackagePath": "staticwebassets\\images\\employee management system.png"
+    },
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\images\\sphelekeresume.pdf",
+      "PackagePath": "staticwebassets\\images\\sphelekeresume.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\site.js",
+      "PackagePath": "staticwebassets\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.portfolioSite.props",
+      "PackagePath": "build\\portfolioSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.portfolioSite.props",
+      "PackagePath": "buildMultiTargeting\\portfolioSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.portfolioSite.props",
+      "PackagePath": "buildTransitive\\portfolioSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.portfolioSite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

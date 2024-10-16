@@ -1,0 +1,127 @@
+﻿@page "/Experience"
+@rendermode InteractiveServer
+
+<PageTitle>Experience</PageTitle>
+
+<!--navbar goes here-->
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand h3" href="/">Spheleke Ntshona</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active me-3 text-dark " aria-current="page" href="#">Home</a>
+                    <a class="nav-link me-3 text-dark " href="/AboutMe">About Me</a>
+                    <a class="nav-link me-3 text-dark " href="/Experience">Experience</a>
+                    <a class="nav-link me-3 text-dark " href="/Projects">Projects</a>
+                    <a class="nav-link me-3 text-dark " href="/ContactMe">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--Experience sections-->
+<section class="experience-section py-5 bg-secondary">
+    <div class="container">
+        <h2 class="text-center text-tertiary mb-4">Experience</h2>
+        
+        <div class="row">
+            <!-- Education Section -->
+            <div class="col-md-6 mb-4">
+                <i class="fa-solid fa-school"></i>
+                <h3 class="text-tertiary">Education</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <h5>Diploma in ICT in Application Development</h5>
+                        <p><em>Walter Sisulu University, East London, 2020 - 2023</em></p>
+                        <p>I studied 4 years of Software Development, specializing in the development of Web, Desktop and Mobile Applications. Efficient in C#, Java and Python as primary programming languages.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Work Experience Section -->
+            <div class="col-md-6 mb-4">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3 class="text-tertiary">Work Experience</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <h5>Ardagh Graduate Intern - CapaCiti</h5>
+                        <p><em>Cape Town, 2024 - Present</em></p>
+                        <p>I am currently undergoing a graduate program that specializes on Cyber Security, SAP and Data & BI.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--certification sections-->
+
+<section class="certifications-section py-5 bg-secondary">
+    <div class="container">
+        <h2 class="text-center text-tertiary mb-4">Certifications</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/Java Programming.png" class="card-img-top" alt="Certification 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Java Programming</h5>
+                        <p class="card-text">Completed an online Java Programming course, focusing on OOP basics, and practical application in Software Development.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Certification Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/Azure.png" class="card-img-top" alt="Certification 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Azure Course</h5>
+                        <p class="card-text">Completed the Great Learning Azure certification program, demonstrating proficiency in Cloud Computing</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certification Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/FreeCodeCamp.png" class="card-img-top" alt="Certification 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-teriary">Foundational C# with Microsoft</h5>
+                        <p class="card-text">A comprehensive introduction to C# programming, covering core concepts, syntax, and practical application in software development.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certification Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/CodSoft.png" class="card-img-top" alt="Certification 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Android App Development</h5>
+                        <p class="card-text">A CodSoft 4-week virtual internship, developing Android Applications, using Java in Android Studio.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more certification cards as needed -->
+        </div>
+    </div>
+</section>
+
+<footer class="footer bg-dark text-light py-4">
+    <div class="container text-center">
+        <p>&copy; @DateTime.Now.Year Spheleke Ntshona. All rights reserved.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="https://github.com/yourusername" class="text-light" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/yourusername" class="text-light" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            </li>
+        </ul>
+    </div>
+</footer>

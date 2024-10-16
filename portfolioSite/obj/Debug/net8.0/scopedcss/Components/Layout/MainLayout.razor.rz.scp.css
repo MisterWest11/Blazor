@@ -1,0 +1,47 @@
+.page[b-8hlf2wa28u] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-8hlf2wa28u] {
+    flex: 1;
+}
+
+
+
+@media (max-width: 640.98px) {
+    .top-row[b-8hlf2wa28u] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-8hlf2wa28u]  a, .top-row[b-8hlf2wa28u]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-8hlf2wa28u] {
+        flex-direction: row;
+    }
+
+}
+
+#blazor-error-ui[b-8hlf2wa28u] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss[b-8hlf2wa28u] {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }

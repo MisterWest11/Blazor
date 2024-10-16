@@ -1,0 +1,122 @@
+﻿@page "/AboutMe"
+@rendermode InteractiveServer
+
+<PageTitle>About Me</PageTitle>
+
+<!--navbar goes here-->
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand h3" href="/">Spheleke Ntshona</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active me-3 text-dark " aria-current="page" href="#">Home</a>
+                    <a class="nav-link me-3 text-dark " href="/AboutMe">About Me</a>
+                    <a class="nav-link me-3 text-dark " href="/Experience">Experience</a>
+                    <a class="nav-link me-3 text-dark " href="/Projects">Projects</a>
+                    <a class="nav-link me-3 text-dark " href="/ContactMe">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<section class="about-me-section d-flex align-items-center justify-content-center vh-100 bg-secondary">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <!-- Left column (Profile image) -->
+            <div class="col-md-4 text-center mb-4">
+                <img src="images/SN.jpg" alt="Spheleke Ntshona" class="img-fluid " style="width: 250px; height: 250px; object-fit: cover;">
+            </div>
+
+            <!-- Right column (Text about you) -->
+            <div class="col-md-8 text-center">
+                <h2 class="text-tertiary">About Me</h2>
+                <p class="lead">Hi, I'm <strong>Spheleke Ntshona</strong>, a passionate <strong><em>Full Stack Developer</em></strong>, <strong><em>Mobile App Developer</em></strong>, and <strong><em>Data & BI Analyst</em></strong>. I love creating innovative solutions that solve real-world problems and streamline workflows.</p>
+
+                <p>I have extensive experience working with various technologies, including front-end and back-end development. Whether it's building responsive web apps or handling large datasets, I'm always eager to learn new things and stay ahead of trends in tech.</p>
+
+                <p>Beyond programming, I enjoy collaborating with teams and mentoring young developers to achieve their goals. I believe that great software is built through dedication, creativity, and continuous learning.</p>
+
+                <a href="/ContactMe" class="btn btn-primary mt-4">Contact Me</a>
+                <a href="/images/sphelekeresume.pdf" download="sphelekeresume" class="btn btn-primary mt-4">Download CV</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--My Skills-->
+
+<section class="skills-section py-5 bg-secondary">
+    <div class="container">
+        <h3 class="text-center text-tertiary mb-4">Skills Overview</h3>
+        <div class="row justify-content-center">
+            <!-- Card for Web Development -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fa-solid fa-code fa-3x"></i>
+                        <h5 class="card-title text-tertiary"><strong>Web Development</strong></h5>
+                        <ul class="list-unstyled">
+                            <li>HTML, CSS, JavaScript</li>
+                            <li>Blazor</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                        <p class="card-text">I design and develop responsive websites that offer great user experiences, focusing on both aesthetics and functionality.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card for Mobile Development -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fa-brands fa-android fa-3x"></i>
+                        <h5 class="card-title text-tertiary"><strong>Mobile Development</strong></h5>
+                        <ul class="list-unstyled">
+                            <li>Android Studio</li>
+                            <li>.NET MAUI</li>
+                        </ul>
+                        <p class="card-text">I create mobile applications that are intuitive and engaging, leveraging the latest frameworks to deliver seamless performance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card for Data Analysis & BI -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fa-solid fa-screwdriver-wrench fa-3x"></i>
+                        <h5 class="card-title text-tertiary"><strong>Data Analysis & Other Tools</strong></h5>
+                        <ul class="list-unstyled">
+                            <li>Power Automate</li>
+                            <li>Power BI, Excel</li>
+                            <li>SQL, MySQL</li>
+                        </ul>
+                        <p class="card-text">I analyze data to uncover insights and trends, using visualization tools to communicate findings effectively to stakeholders.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+
+<footer class="footer bg-dark text-light py-4">
+    <div class="container text-center">
+        <p>&copy; @DateTime.Now.Year Spheleke Ntshona. All rights reserved.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="https://github.com/yourusername" class="text-light" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/yourusername" class="text-light" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            </li>
+        </ul>
+    </div>
+</footer>

@@ -1,0 +1,93 @@
+﻿@page "/Projects"
+@rendermode InteractiveServer
+
+<PageTitle>Projects</PageTitle>
+
+<!--navbar goes here-->
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand h3" href="/">Spheleke Ntshona</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active me-3 text-dark " aria-current="page" href="#">Home</a>
+                    <a class="nav-link me-3 text-dark " href="/AboutMe">About Me</a>
+                    <a class="nav-link me-3 text-dark " href="/Experience">Experience</a>
+                    <a class="nav-link me-3 text-dark " href="/Projects">Projects</a>
+                    <a class="nav-link me-3 text-dark " href="/ContactMe">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--Projects showcasing-->
+
+<section class="projects-section py-5 bg-secondary">
+    <div class="container">
+        <h2 class="text-center text-tertiary mb-5">Projects</h2>
+        <div class="row">
+            <!-- Project 1 Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/Candidates Performance Dashboard.png" class="card-img-top" alt="Project 1 Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Candidate Performance Dashboard</h5>
+                        <p class="card-text">
+                            Created an interactive dashboard using Power BI to analyze candidate performance data. The dashboard should visualize trends, challenges, and team leader feedback.
+                        </p>
+                        <p><strong>Technologies Used:</strong> <em>Excel, Power BI & Power Automate</em></p>
+                        <a href="https://app.powerbi.com/groups/me/reports/86c7ca67-ffd0-4a7d-9bb1-3561280c4d6f/c7a35bc4e4d799b94ef0?experience=power-bi" class="btn btn-primary" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/University Success Rate.png" class="card-img-top" alt="Project 2 Image">
+                    <div class="card-body">
+                        <h5 class="card-title">University Success Rate & Influencing Factors Dashboard</h5>
+                        <p class="card-text">
+                            A university's success depends on having enough qualified faculty and staff, along with adequate funding. These factors are crucial for providing quality education, conducting research, supporting students, and maintaining a well-equipped campus.
+                        </p>
+                        <p><strong>Technologies Used:</strong> <em>Excel & Power BI</em></p>
+                        <a href="https://app.powerbi.com/groups/me/reports/a58931bf-e07f-4b60-a6e9-7302a06da18b?ctid=a3f14f21-237f-4028-b978-425eb768a716&experience=power-bi" class="btn btn-primary" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/employee management system.png" class="card-img-top" alt="Project 3 Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Employee Management System</h5>
+                        <p class="card-text">
+                            The Employee Management System is a comprehensive solution that streamlines HR processes, making it easier to manage employee data, tasks, and workflows, resulting in increased productivity.
+                        </p>
+                        <p><strong>Technologies Used:</strong> <em>HTML, CSS, PHP, JavaScript, MySQL</em></p>
+                        <a href="https://github.com/MisterWest11/taskviewer.git" class="btn btn-primary" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer bg-dark text-light py-4">
+    <div class="container text-center">
+        <p>&copy; @DateTime.Now.Year Spheleke Ntshona. All rights reserved.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="https://github.com/MisterWest11/" class="text-light" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/yourusername" class="text-light" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            </li>
+        </ul>
+    </div>
+</footer>

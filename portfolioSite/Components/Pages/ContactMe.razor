@@ -1,0 +1,104 @@
+@page "/ContactMe"
+@rendermode InteractiveServer
+@inject IJSRuntime JS
+
+<PageTitle>Contact Me</PageTitle>
+
+<!--navbar goes here-->
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand h3" href="/">Spheleke Ntshona</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active me-3 text-dark " aria-current="page" href="#">Home</a>
+                    <a class="nav-link me-3 text-dark " href="/AboutMe">About Me</a>
+                    <a class="nav-link me-3 text-dark " href="/Experience">Experience</a>
+                    <a class="nav-link me-3 text-dark " href="/Projects">Projects</a>
+                    <a class="nav-link me-3 text-dark " href="/ContactMe">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--contact form goes here-->
+
+<section class="contact-section py-5 bg-secondary">
+    <div class="container">
+        <h2 class="text-center text-tertiary mb-5">Contact Me</h2>
+        <div class="row">
+            <!-- Contact Form -->
+            <div class="col-md-6">
+                <form id="contactForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div id="statusMessage" class="mt-3"></div> <!-- For displaying success or error message -->
+            </div>
+
+            <!-- Contact Info and Social Links -->
+            <div class="col-md-6">
+                <h4>Get in Touch</h4>
+                <p>If you have any questions or would like to work together, feel free to reach out to me. You can use the form, or connect via email or social media.</p>
+                
+                <ul class="list-unstyled">
+                    <li><strong>Email:</strong> <em>ntshonas@outlook.com</em></li>
+                    <li><strong>Phone:</strong> <em>063-432-7125</em></li>
+                    <li><strong>Location:</strong> <em>Cape Town, Salt River, Durham Avenue</em></li>
+                </ul>
+
+                <h5>Connect with me:</h5>
+                <div class="social-links">
+                    <a href="https://github.com/MisterWestt11/" class="btn btn-outline-dark me-2" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/spheleke-ntshona-6113822a4/" class="btn btn-outline-dark me-2" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Load the EmailJS script
+            await JS.InvokeVoidAsync("loadEmailJS");
+        }
+    }
+}
+<!--Footer-->
+
+<footer class="footer bg-dark text-light py-4">
+    <div class="container text-center">
+        <p>&copy; @DateTime.Now.Year Spheleke Ntshona. All rights reserved.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="https://github.com/yourusername" class="text-light" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/yourusername" class="text-light" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            </li>
+        </ul>
+    </div>
+</footer>
