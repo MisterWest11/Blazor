@@ -30,9 +30,12 @@ document.addEventListener('DOMContentLoaded', function () {
   setInterval(changeProfession, 3000);
 });
 
+(function(){
+  emailjs.init("service_y1bi97m");  // Initialize EmailJS with your user ID
+})();
 
 window.sendEmail = function(name, email, subject, message) {
-  emailjs.send("service_y1bi97m", "your_template_id", {
+  emailjs.send("service_y1bi97m", "template_8ofnmuv", {
       from_name: name,
       from_email: email,
       subject: subject,

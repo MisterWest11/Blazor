@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "coSMJMes16uxKBsHRcOMjIWF4f1L0yJh2zx0zJTKg38=",
+  "Hash": "iQwgv4mK3Cvry+yQnVmvCEyquAbOcwqaI27jwPXHdIY=",
   "Source": "portfolioSite",
   "BasePath": "_content/portfolioSite",
   "Mode": "Default",
@@ -224,6 +224,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\FreeCodeCamp.png"
+    },
+    {
+      "Identity": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\images\\Java Programming.png",
+      "SourceId": "portfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\",
+      "BasePath": "_content/portfolioSite",
+      "RelativePath": "images/Java Programming.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Java Programming.png"
     },
     {
       "Identity": "C:\\Users\\Spheleke.Ntshona\\Desktop\\blazorWeb\\portfolioSite\\wwwroot\\images\\SN.jpg",

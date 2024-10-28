@@ -27,3 +27,4 @@ C:\Users\Spheleke.Ntshona\Desktop\blazorWeb\portfolioSite\obj\Debug\net8.0\refin
 C:\Users\Spheleke.Ntshona\Desktop\blazorWeb\portfolioSite\obj\Debug\net8.0\portfolioSite.pdb
 C:\Users\Spheleke.Ntshona\Desktop\blazorWeb\portfolioSite\obj\Debug\net8.0\portfolioSite.genruntimeconfig.cache
 C:\Users\Spheleke.Ntshona\Desktop\blazorWeb\portfolioSite\obj\Debug\net8.0\ref\portfolioSite.dll
+C:\Users\Spheleke.Ntshona\Desktop\blazorWeb\portfolioSite\obj\Debug\net8.0\portfolioSite.sourcelink.json
